@@ -1,0 +1,151 @@
+.cheeny {
+	text-align: center;
+	font-family: Jazz LET, fantasy;
+	font-size: 350%;
+
+
+}
+
+.sean {
+	text-align:center;
+	font-family: Jazz LET, fantasy;
+	font-size: 350%;
+
+}
+
+
+.kim {
+	font-family: Courier New, monospace;
+	font-size: 150%;
+	text-align: center;
+}
+
+.title {
+	font-family: Courier New, monospace;
+	font-size: 225%;
+	text-align: center;
+}
+
+
+.mom {
+	text-align: center;
+	font-family: Marker Felt, fantasy;
+	font-size: 150%;
+}
+
+.dad {
+	font-family: Jazz LET, fantasy;
+	background-color: black;
+  	border: none;
+  	color: white;
+  	padding: 16px 32px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	opacity: 0.6;
+  	transition: 0.3s;
+}
+
+.dad:hover { opacity: 1}
+
+.gracie {
+	text-align:center;
+	text-shadow: 2px 2px 5px white;
+}
+
+
+.month {
+	font-family: monospace;
+	text-align: center;
+	font-size: 80%;
+}
+
+.money {
+	font-family: monospace;
+	text-align: center;
+	font-size: 320%;
+}
+
+.sub {
+	text-align: center;
+	font-size: 90%;
+}
+
+.wallet {
+	text-align: center;
+	font-family: Jazz LET, fantasy;
+	font-size: 250%;
+}
+
+/* margin for the labels */
+.enter label {
+	margin: 5px 10px 5px 0;
+}
+
+/* style the input feilds */
+
+.enter input {
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	background-color: #F5F5F5;
+	border: 1px solid #000000;
+}
+
+/* style the submit buttons */
+.enter button {
+	padding: 10px 20px;
+	background-color: #303030;
+	border: 1px solid #ddd;
+	color: white;
+}
+
+.enter button:hover {
+	background-color: #585858;
+}
+
+.enter {
+	text-align: center;
+}
+
+.ex {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://i.pinimg.com/236x/de/50/9b/de509b88c5f13ae8d141aeb2e138f745--logo-k-business-cards.jpg),
+      url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+      linear-gradient(to right, rgba(100, 100, 115, 1), rgba(260, 350, 350, 0));
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+  background-position: bottom right,
+      left,
+      right;
+}
+
+
+
+.StripeElement {
+  height: 40px;
+  padding: 10px 12px;
+  width: 100%;
+  color: #32325d;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}

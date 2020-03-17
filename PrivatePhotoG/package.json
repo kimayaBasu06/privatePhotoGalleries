@@ -1,0 +1,19 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.0.3",
+    "@stripe/stripe-js": "^1.0.3",
+    "fetch": "^1.1.0",
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "stripe": "^8.32.0"
+  }
+}

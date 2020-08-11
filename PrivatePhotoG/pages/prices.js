@@ -1,11 +1,14 @@
 import Layout from '../components/MyLayout.js'
 import styles from '../components/prices.module.css'
 import Head from 'next/head'
+import Out from './script.js'
+import Table from 'react-bootstrap/Table'
 
-
-export default function About() {
+export default function Prices() {
   return (
     <Layout>
+  		
+    	<hr></hr>
     	<h2 className={styles.gracie}>
           <img className={styles.gracie} src="/family_history.jpg" alt="my image" />
         </h2>
@@ -13,78 +16,33 @@ export default function About() {
         <hr></hr>
     	<h1 className={styles.cheeny}>PRICES</h1>
 
-      	<hr></hr>
 
-	    <dev className={styles.title}>
-			<div class="container">
-		 		<div class="row">
-		   			<div class="col-sm">
-		   				FREE
-		   			</div>
-		   			<div class="col-sm">
-		    			PLUS
-		    		</div>
-		    		<div class="col-sm">
-		    			ULTIMATE
-		   			</div>
-		  		</div>
-		 	</div>
-		</dev>
-
-		<hr></hr>
-
-		<dev className={styles.money}>
-			<div class="container">
-		 		<div class="row">
-		   			<div class="col-sm">
-		   				$0
-		   				<p3 className={styles.month}>/mo</p3>
-		   			</div>
-		   			<div class="col-sm">
-		    			$16
-		    			<p3 className={styles.month}>/mo</p3>
-		    		</div>
-		    		<div class="col-sm">
-		    			$40
-		    			<p3 className={styles.month}>/mo</p3>
-		   			</div>
-		  		</div>
-		 	</div>
-		</dev>
-
-		<dev className={styles.sub}>
-			<div class="container">
-		 		<div class="row">
-		   			<div class="col-sm">
-		   				Billed Never
-		   			</div>
-		   			<div class="col-sm">
-		    			Billed Annually or $20 Monthly
-		    		</div>
-		    		<div class="col-sm">
-		    			Billed Annually or $50 Monthly
-		   			</div>
-		  		</div>
-		 	</div>
-		</dev>
-
-		<hr></hr>
-
-		<dev className={styles.kim}>
-			<div class="container">
-		 		<div class="row">
-		   			<div class="col-sm">
-		   				4GB
-		   			</div>
-		   			<div class="col-sm">
-		    			100GB
-		    		</div>
-		    		<div class="col-sm">
-		    			UNLIMITED
-		   			</div>
-		  		</div>
-		 	</div>
-		</dev>
+    	<Table striped bordered hover size="sm">
+		  <thead>
+		    <tr>
+		      <th>FREE </th>
+		      <th>PLUS </th>
+		      <th>ULTIMATE</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>$0</td>
+		      <td>$16</td>
+		      <td>$40</td>
+		    </tr>
+		    <tr>
+		      <td>Billed Never</td>
+		      <td>Biller Annually or $20 Monthly</td>
+		      <td>Biller Annually or $50 Monthly</td>
+		    </tr>
+		    <tr>
+		      <td>4GB</td>
+		      <td >100GB</td>
+		      <td>UNLIMITED</td>
+		    </tr>
+		  </tbody>
+		</Table>
 
       <Head>
         <title>IMG-UP</title>
